@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/Artboard\ 1.png");
+}
 .App {
   text-align: center;
 }
@@ -24,15 +29,197 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.landing {
+  width: 100vw;
+  height: 75vh;
+  background-image: url("./assets/fuck.png");
+}
+
+.intro {
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #29d9c2;
+  width: 100vw;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+.navbar-light .navbar-brand:hover {
+  letter-spacing: 5px;
+  color: white;
+}
+
+.nav-link {
+  border-radius: 50%;
+  border-color: white;
+  border-width: 2px;
+}
+.skills {
+  background-color: #29d9c2;
+  border-radius: 5px;
+}
+.card {
+  background-color: #f0f09c;
+}
+
+.big {
+  width: 50vw;
+  height: 75vh;
+  border-radius: 70%;
+  background-color: #f0f09c;
+}
+
+.small {
+  width: 70vw;
+  height: 50vh;
+  background-color: #29d9c2;
+  border-radius: 100%;
+}
+
+.footer {
+  background-color: #29d9c2;
+}
+
+.btn {
+  border-radius: 50%;
+  border-color: #f0f09c;
+  border-width: 2px;
+}
+
+.fa {
+  color: #f0f09c;
+}
+
+.btn:hover {
+  box-shadow: 5px 5px #f0f09c;
+}
+.project {
+  width: 35vw;
+  height: 30vh;
+}
+.name {
+  font-size: xx-large;
+}
+.intromoti {
+  font-size: x-large;
+}
+
+.moti {
+  font-size: 50px;
+}
+
+p {
+  font-family: serif;
+}
+
+.smallImage {
+  background-image: url("./assets/motiPicture.jpg");
+  background-size: cover;
+  width: 20vw;
+  height: 40vh;
+  margin-top: 25px;
+  border-radius: 100%;
+}
+
+.list-group-item {
+  border: none;
+  background-color: #f0f09c;
+}
+.photograph {
+  background-image: url("./assets/photo.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 50vh;
+}
+
+.car {
+  width: 80vw;
+  height: 45vh;
+}
+.svg {
+  background-image: url("./assets/fuckk.jpg");
+  background-size: cover;
+  border-radius: 5%;
+  width: 30vw;
+  height: 35vh;
+}
+.photographTitle {
+  background-image: url("./assets/phot.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 50vh;
+}
+.round {
+  border-radius: 5px;
+  background-color: #f0f09c;
+}
+.alg {
+  background-color: #f0f09c;
+}
+.title {
+  font-size: 80px;
+  padding-left: 50px;
+}
+.white {
+  color: white;
+}
+
+.first {
+  background-image: url("./assets/20200810_013100.jpg");
+  background-size: cover;
+  width: 90%;
+  height: 90%;
+  border-radius: 5px;
+}
+.second {
+  background-image: url("./assets/fuckk.jpg");
+  background-size: cover;
+  width: 90%;
+  height: 90%;
+  border-radius: 5px;
+}
+.third {
+  background-image: url("./assets/Snapchat-630007911.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 90%;
+  border-radius: 5px;
+}
+.fourth {
+  background-image: url("./assets/20200810_015247.jpg");
+  background-size: cover;
+  width: 90%;
+  height: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+  .landing {
+    width: 100vw;
+    height: 75vh;
+    background-image: url("./assets/fuck.png");
+  }
+  .big {
+    border-radius: 20%;
+    height: 60vh;
+  }
+
+  .small {
+    display: none;
+  }
+  .intromoti {
+    font-size: large;
   }
 }
